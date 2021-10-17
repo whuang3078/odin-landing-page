@@ -137,6 +137,7 @@ text-decoration: none;
     padding: 70px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .abox {
@@ -145,7 +146,6 @@ text-decoration: none;
     justify-content: space-around;
     align-items: center;
     border-radius: 5px;
-    width: 700px;
 }
 
 .action-title, .action-sub {
