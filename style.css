@@ -1,0 +1,171 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: bold;
+    color:#F9FAF8
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+a, .title-descr {
+color: #E5E7EB;
+font-size: 18px;
+text-decoration: none;
+}
+
+.sign-up, .abox, .action-sign {
+    background-color: #3882F6;
+}
+
+.sign-up {
+    border: 1px solid #3882F6;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 16px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+}
+
+.header-content {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 16px;
+    margin-bottom: 50px;
+}
+
+.title-descr {
+    padding-bottom: 10px;
+}
+
+.hmid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.grey-box {
+    min-width:350px;
+    max-height:200px;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.item {
+    max-width: 200px;
+}
+
+.box {
+    width: 130px;
+    height: 130px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.info {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.inspo {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.src {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.action {
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.abox {
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    width: 700px;
+}
+
+.action-title, .action-sub {
+    color: white;
+}
+
+.action-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.action-sign {
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 16px;
+}
+
+.footer {
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
