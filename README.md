@@ -1,1 +1,1 @@
-# odin-landing-page
+In this project, I've created a simple landing page from scratch using the basic html and css lessons I've learnt so far in The Odin Project Foundations course.
